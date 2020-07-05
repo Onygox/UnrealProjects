@@ -1,0 +1,11 @@
+{
+	"files.exclude": {
+		"/Users/lionel/Documents/Unreal Projects/DungeonEscape/.vscode": true,
+		"/Users/lionel/Documents/Unreal Projects/DungeonEscape/Content": true,
+		"/Users/lionel/Documents/Unreal Projects/DungeonEscape/DerivedDataCache": true,
+		"/Users/lionel/Documents/Unreal Projects/DungeonEscape/DungeonEscape.xcworkspace": true,
+		"/Users/lionel/Documents/Unreal Projects/DungeonEscape/Intermediate": true,
+		"/Users/lionel/Documents/Unreal Projects/DungeonEscape/MacNoEditor": true,
+		"/Users/lionel/Documents/Unreal Projects/DungeonEscape/Saved": true
+	}
+}

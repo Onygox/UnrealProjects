@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "DungeonEscape",
+			"Path": "/Users/lionel/Documents/Unreal Projects/DungeonEscape/Source/DungeonEscape.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DungeonEscapeEditor",
+			"Path": "/Users/lionel/Documents/Unreal Projects/DungeonEscape/Source/DungeonEscapeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

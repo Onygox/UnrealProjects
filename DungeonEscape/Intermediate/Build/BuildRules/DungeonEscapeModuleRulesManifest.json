@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/lionel/Documents/Unreal Projects/DungeonEscape/Source/DungeonEscape/DungeonEscape.Build.cs",
+		"/Users/lionel/Documents/Unreal Projects/DungeonEscape/Source/DungeonEscape.Target.cs",
+		"/Users/lionel/Documents/Unreal Projects/DungeonEscape/Source/DungeonEscapeEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.1"
+}
