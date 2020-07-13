@@ -1,5 +1,5 @@
-/Users/lionel/Documents/UnrealProjects/ToonTanks/Intermediate/Build/Mac/ToonTanksEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.gch: \
-  /Users/lionel/Documents/UnrealProjects/ToonTanks/Intermediate/Build/Mac/ToonTanksEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h \
+/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/ToonTanksEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.gch: \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/ToonTanksEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Core/Public/Containers/ContainersFwd.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Core/Public/CoreTypes.h \

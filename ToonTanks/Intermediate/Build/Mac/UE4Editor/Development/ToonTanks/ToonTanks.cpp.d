@@ -1,4 +1,4 @@
-/Users/lionel/Documents/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Development/ToonTanks/ToonTanks.cpp.o: \
+/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Development/ToonTanks/ToonTanks.cpp.o: \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Public/TextureLayout.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Public/TextureLayout3d.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/SoundWave.generated.h \
@@ -1257,7 +1257,7 @@
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Core/Public/CoreTypes.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Core/Public/Containers/ContainersFwd.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h \
-  /Users/lionel/Documents/UnrealProjects/ToonTanks/Intermediate/Build/Mac/ToonTanksEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/ToonTanksEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include/stddef.h \
@@ -2646,6 +2646,6 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/deque \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector \
-  /Users/lionel/Documents/UnrealProjects/ToonTanks/Source/ToonTanks/ToonTanks.cpp \
-  /Users/lionel/Documents/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Development/ToonTanks/Definitions.ToonTanks.h \
-  /Users/lionel/Documents/UnrealProjects/ToonTanks/Source/ToonTanks/ToonTanks.h
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/ToonTanks.cpp \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Development/ToonTanks/Definitions.ToonTanks.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/ToonTanks.h

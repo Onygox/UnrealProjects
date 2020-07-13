@@ -1,8 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "PawnBase.h"
 #include "Components/CapsuleComponent.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "ToonTanks/Actors/ProjectileBase.h"
 
 // Sets default values
 APawnBase::APawnBase()
@@ -24,24 +25,39 @@ APawnBase::APawnBase()
 
 }
 
-// Called when the game starts or when spawned
-void APawnBase::BeginPlay()
+void APawnBase::RotateTurret(FVector LookAtTarget)
 {
-	Super::BeginPlay();
-	
+	// Update TurretMesh rotation to face towards LookTarget passed in from Child class
+
+	FVector StartLocation = TurretMesh->GetComponentLocation();
+	FRotator TurretRotation = UKismetMathLibrary::FindLookAtRotation(StartLocation, FVector(LookAtTarget.X, LookAtTarget.Y, TurretMesh->GetComponentLocation().Z));
+
+	TurretMesh->SetWorldRotation(TurretRotation);
 }
 
-// Called every frame
-void APawnBase::Tick(float DeltaTime)
+void APawnBase::Fire()
 {
-	Super::Tick(DeltaTime);
-
+	// Get ProjectileSpawnPointLocation & Rotation, then Spawn Projectile class at location towards rotation
+	FVector ProjectileLocation = ProjectileSpawnPoint->GetComponentLocation();
+	FRotator ProjectileRotation = ProjectileSpawnPoint->GetComponentRotation();
+	if (ProjectileClass)
+	{
+		AProjectileBase* TempProjectile = GetWorld()->SpawnActor<AProjectileBase>(ProjectileClass, ProjectileLocation, ProjectileRotation);
+	}
 }
 
-// Called to bind functionality to input
-void APawnBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void APawnBase::HandleDestruction()
 {
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	// Universal functionality
+	// Play death effect animation / particles / sound effect / camera shake
+	// Then do unique child override effects
 
+	// Pawn Turret informs gamemode that turret has died before destroying itself
+
+	// Pawn Tank informs the gamemode that the main player died, hiding all components, displaying a end game message and stopping all movement
 }
 
+void APawnBase::PawnDestroyed()
+{
+	HandleDestruction();
+}

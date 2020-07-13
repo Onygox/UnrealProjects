@@ -1,1 +1,6 @@
-/Users/lionel/Documents/UnrealProjects/ToonTanks/Source/ToonTanks/Pawns/PawnBase.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/Actors/ProjectileBase.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/GameModes/TankGameModeBase.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/Pawns/PawnTurret.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/Pawns/PawnBase.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/Pawns/PawnTank.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/Components/HealthComponent.h

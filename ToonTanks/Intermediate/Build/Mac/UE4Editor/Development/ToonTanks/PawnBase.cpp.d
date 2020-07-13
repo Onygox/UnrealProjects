@@ -1,4 +1,4 @@
-/Users/lionel/Documents/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Development/ToonTanks/PawnBase.cpp.o: \
+/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Development/ToonTanks/PawnBase.cpp.o: \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Public/TextureLayout.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Public/TextureLayout3d.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/SoundWave.generated.h \
@@ -1257,7 +1257,7 @@
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Core/Public/CoreTypes.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Core/Public/Containers/ContainersFwd.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h \
-  /Users/lionel/Documents/UnrealProjects/ToonTanks/Intermediate/Build/Mac/ToonTanksEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/ToonTanksEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include/stddef.h \
@@ -2646,11 +2646,16 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/deque \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector \
-  /Users/lionel/Documents/UnrealProjects/ToonTanks/Source/ToonTanks/Pawns/PawnBase.cpp \
-  /Users/lionel/Documents/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Development/ToonTanks/Definitions.ToonTanks.h \
-  /Users/lionel/Documents/UnrealProjects/ToonTanks/Source/ToonTanks/Pawns/PawnBase.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/Pawns/PawnBase.cpp \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Development/ToonTanks/Definitions.ToonTanks.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/Pawns/PawnBase.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Components/CapsuleComponent.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Components/ShapeComponent.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/ShapeComponent.generated.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/CapsuleComponent.generated.h \
-  /Users/lionel/Documents/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Inc/ToonTanks/PawnBase.generated.h
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Inc/ToonTanks/PawnBase.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Kismet/KismetMathLibrary.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/KismetMathLibrary.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Kismet/KismetMathLibrary.inl \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/Actors/ProjectileBase.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Inc/ToonTanks/ProjectileBase.generated.h

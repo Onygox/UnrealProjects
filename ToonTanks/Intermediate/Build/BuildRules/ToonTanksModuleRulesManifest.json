@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"/Users/lionel/Documents/UnrealProjects/ToonTanks/Source/ToonTanks/ToonTanks.Build.cs",
-		"/Users/lionel/Documents/UnrealProjects/ToonTanks/Source/ToonTanks.Target.cs",
-		"/Users/lionel/Documents/UnrealProjects/ToonTanks/Source/ToonTanksEditor.Target.cs"
+		"/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/ToonTanks.Build.cs",
+		"/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks.Target.cs",
+		"/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanksEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.1"
 }

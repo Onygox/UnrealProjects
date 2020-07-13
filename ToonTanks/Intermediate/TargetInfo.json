@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "ToonTanks",
-			"Path": "/Users/lionel/Documents/UnrealProjects/ToonTanks/Source/ToonTanks.Target.cs",
+			"Path": "/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "ToonTanksEditor",
-			"Path": "/Users/lionel/Documents/UnrealProjects/ToonTanks/Source/ToonTanksEditor.Target.cs",
+			"Path": "/Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanksEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
