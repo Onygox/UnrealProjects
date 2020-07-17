@@ -2674,4 +2674,6 @@
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/DialogueTypes.generated.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Kismet/GameplayStaticsTypes.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameplayStaticsTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameplayStatics.generated.h
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameplayStatics.generated.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/PlayerControllers/PlayerControllerBase.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Inc/ToonTanks/PlayerControllerBase.generated.h

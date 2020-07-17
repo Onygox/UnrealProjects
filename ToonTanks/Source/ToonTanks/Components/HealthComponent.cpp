@@ -11,7 +11,7 @@ UHealthComponent::UHealthComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = false;
 
-	Health = DefaultHealth;
+	// Health = DefaultHealth;
 }
 
 
@@ -20,12 +20,15 @@ void UHealthComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
+	Health = DefaultHealth;
+
 	GameModeRef = Cast<ATankGameModeBase>(UGameplayStatics::GetGameMode(GetWorld()));
 
 	Owner = GetOwner();
 	if (Owner)
 	{
 		Owner->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::TakeDamage);
+		// UE_LOG(LogTemp, Warning, TEXT("Added Take Damage Dynamic To %s."), *GetOwner()->GetName());
 	}
 	else
 	{
@@ -35,13 +38,17 @@ void UHealthComponent::BeginPlay()
 
 void UHealthComponent::TakeDamage(AActor* DamageActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser)
 {
+	
+	// UE_LOG(LogTemp, Warning, TEXT("Take Damage initiated on %s."), *GetOwner()->GetName());
+	
 	if (Damage == 0 || Health == 0)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Health or Damage is zero."));
+		// UE_LOG(LogTemp, Warning, TEXT("Health or Damage is zero."));
 		return;
 	}
 
 	Health = FMath::Clamp(Health-Damage, 0.0f, DefaultHealth);
+	// UE_LOG(LogTemp, Warning, TEXT("%s health is now %f."), *GetOwner()->GetName(), Health);
 
 	if (Health <= 0.0)
 	{

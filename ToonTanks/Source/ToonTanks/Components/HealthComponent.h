@@ -28,7 +28,7 @@ private:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Health", meta = (AllowPrivateAccess = "true"))
 	float DefaultHealth = 100.0f;
-	UPROPERTY(VisibleAnywhere, Category = "Health")
+	// UPROPERTY(VisibleAnywhere, Category = "Health")
 	float Health = 0.0f;
 
 	AActor* Owner;
