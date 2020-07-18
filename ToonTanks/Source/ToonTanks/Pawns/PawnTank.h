@@ -30,6 +30,8 @@ private:
 	APlayerController* PlayerControllerRef;
 	FHitResult TraceHitResult;
 
+	bool bIsPlayerAlive = true;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Movement", meta = (AllowPrivateAccess = "true"))
 	float MoveSpeed = 100.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Movement", meta = (AllowPrivateAccess = "true"))
@@ -45,9 +47,6 @@ public:
 	// Sets default values for this pawn's properties
 	APawnTank();
 
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -56,4 +55,9 @@ public:
 
 	virtual void HandleDestruction() override;
 
+	bool GetIsPlayerAlive();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 };

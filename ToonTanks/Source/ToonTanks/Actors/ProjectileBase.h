@@ -30,6 +30,8 @@ private:
 	float Damage = 50.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Projectile Details", meta = (AllowPrivateAccess = "true"))
 	float ProjectileLifeSpan = 3.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Effects", meta = (AllowPrivateAccess = "true"))
+	UParticleSystem* HitParticle;
 
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult &Hit);

@@ -45,16 +45,14 @@ void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 	if (OtherActor != NULL && OtherActor != this && OtherActor != MyOwner)
 	{
 		UGameplayStatics::ApplyDamage(OtherActor, Damage, MyOwner->GetInstigatorController(), this, DamageType);
-		// UE_LOG(LogTemp, Warning, TEXT("Applied Damage."));
+		
+		UGameplayStatics::SpawnEmitterAtLocation(this, HitParticle, GetActorLocation());
+
+		Destroy();
 	}
 	else
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Did not hit actor"));
 	}
-	
-
-	// Do a bunch of visual effects here during polish phase
-
-	Destroy();
 }
 

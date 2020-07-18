@@ -2657,5 +2657,18 @@
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Kismet/KismetMathLibrary.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/KismetMathLibrary.generated.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Kismet/KismetMathLibrary.inl \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Kismet/GameplayStatics.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/CoreUObject/Public/UObject/PropertyAccessUtil.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Engine/CollisionProfile.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/CollisionProfile.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/KismetSystemLibrary.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Sound/DialogueTypes.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/DialogueTypes.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Kismet/GameplayStaticsTypes.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameplayStaticsTypes.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameplayStatics.generated.h \
   /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/Actors/ProjectileBase.h \
-  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Inc/ToonTanks/ProjectileBase.generated.h
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Inc/ToonTanks/ProjectileBase.generated.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Source/ToonTanks/Components/HealthComponent.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ToonTanks/Intermediate/Build/Mac/UE4Editor/Inc/ToonTanks/HealthComponent.generated.h
