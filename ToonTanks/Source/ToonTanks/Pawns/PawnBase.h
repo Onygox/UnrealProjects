@@ -39,12 +39,17 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Health", meta = (AllowPrivateAccess = "true"))
 	UHealthComponent* HealthComponent;
 
+	UPROPERTY(EditDefaultsOnly, Category="Effects", meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<UCameraShake> DeathShake;
+
 public:
 
 	// Sets default values for this pawn's properties
 	APawnBase();
 
 	void PawnDestroyed();
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	USoundBase* DeathSound;
 
 protected:
 

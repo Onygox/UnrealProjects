@@ -57,6 +57,9 @@ void APawnBase::HandleDestruction()
 	// Universal functionality
 	// Play death effect animation / particles / sound effect / camera shake
 	// Then do unique child override effects
+	GetWorld()->GetFirstPlayerController()->ClientPlayCameraShake(DeathShake);
+
+	UGameplayStatics::PlaySoundAtLocation(this, DeathSound, GetActorLocation());
 
 	UGameplayStatics::SpawnEmitterAtLocation(this, DeathParticle, GetActorLocation());
 

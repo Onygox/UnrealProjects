@@ -2664,4 +2664,11 @@
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/DialogueTypes.generated.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Kismet/GameplayStaticsTypes.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameplayStaticsTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameplayStatics.generated.h
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameplayStatics.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Particles/ParticleSystemComponent.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Particles/ParticleSystem.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Particles/ParticlePerfStats.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/ParticleSystem.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Particles/Emitter.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/Emitter.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/ParticleSystemComponent.generated.h
