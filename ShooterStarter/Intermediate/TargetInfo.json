@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ShooterStarter",
+			"Path": "/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ShooterStarterEditor",
+			"Path": "/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
