@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ShooterStarter/Actors/A_Gun.h"
+#include "ShooterStarter/A_Gun.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeA_Gun() {}
 	SHOOTERSTARTER_API UClass* Z_Construct_UClass_AA_Gun();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_ShooterStarter();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 // End Cross Module References
@@ -33,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeA_Gun() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MuzzleFlash_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MuzzleFlash;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[];
 #endif
@@ -51,15 +56,22 @@ void EmptyLinkFunctionForGeneratedCodeA_Gun() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AA_Gun_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "Actors/A_Gun.h" },
-		{ "ModuleRelativePath", "Actors/A_Gun.h" },
+		{ "IncludePath", "A_Gun.h" },
+		{ "ModuleRelativePath", "A_Gun.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AA_Gun_Statics::NewProp_MuzzleFlash_MetaData[] = {
+		{ "Category", "A_Gun" },
+		{ "ModuleRelativePath", "A_Gun.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AA_Gun_Statics::NewProp_MuzzleFlash = { "MuzzleFlash", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AA_Gun, MuzzleFlash), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AA_Gun_Statics::NewProp_MuzzleFlash_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AA_Gun_Statics::NewProp_MuzzleFlash_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AA_Gun_Statics::NewProp_Mesh_MetaData[] = {
 		{ "Category", "A_Gun" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Actors/A_Gun.h" },
+		{ "ModuleRelativePath", "A_Gun.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AA_Gun_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x00400000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AA_Gun, Mesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AA_Gun_Statics::NewProp_Mesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AA_Gun_Statics::NewProp_Mesh_MetaData)) };
@@ -67,11 +79,12 @@ void EmptyLinkFunctionForGeneratedCodeA_Gun() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AA_Gun_Statics::NewProp_Root_MetaData[] = {
 		{ "Category", "A_Gun" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Actors/A_Gun.h" },
+		{ "ModuleRelativePath", "A_Gun.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AA_Gun_Statics::NewProp_Root = { "Root", nullptr, (EPropertyFlags)0x00400000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AA_Gun, Root), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AA_Gun_Statics::NewProp_Root_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AA_Gun_Statics::NewProp_Root_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AA_Gun_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_Gun_Statics::NewProp_MuzzleFlash,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_Gun_Statics::NewProp_Mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_Gun_Statics::NewProp_Root,
 	};
@@ -102,7 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeA_Gun() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AA_Gun, 172754388);
+	IMPLEMENT_CLASS(AA_Gun, 40877310);
 	template<> SHOOTERSTARTER_API UClass* StaticClass<AA_Gun>()
 	{
 		return AA_Gun::StaticClass();

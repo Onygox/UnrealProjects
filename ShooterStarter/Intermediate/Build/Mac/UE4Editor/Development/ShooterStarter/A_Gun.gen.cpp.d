@@ -2650,5 +2650,5 @@
   /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Development/ShooterStarter/Definitions.ShooterStarter.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/CoreUObject/Public/UObject/MetaData.h \
-  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/Actors/A_Gun.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/A_Gun.h \
   /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Inc/ShooterStarter/A_Gun.generated.h

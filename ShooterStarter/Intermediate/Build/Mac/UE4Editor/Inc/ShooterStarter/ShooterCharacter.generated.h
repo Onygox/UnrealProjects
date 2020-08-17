@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SHOOTERSTARTER_ShooterCharacter_generated_h
 
-#define ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_SPARSE_DATA
-#define ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_RPC_WRAPPERS
-#define ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_SPARSE_DATA
+#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_RPC_WRAPPERS
+#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAShooterCharacter(); \
 	friend struct Z_Construct_UClass_AShooterCharacter_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AShooterCharacter)
 
 
-#define ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_INCLASS \
+#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAShooterCharacter(); \
 	friend struct Z_Construct_UClass_AShooterCharacter_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AShooterCharacter)
 
 
-#define ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_STANDARD_CONSTRUCTORS \
+#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AShooterCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AShooterCharacter) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AShooterCharacter(AShooterCharacter&&); \
@@ -58,31 +58,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AShooterCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AShooterCharacter)
 
 
-#define ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__RotationRate() { return STRUCT_OFFSET(AShooterCharacter, RotationRate); }
+#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__RotationRate() { return STRUCT_OFFSET(AShooterCharacter, RotationRate); } \
+	FORCEINLINE static uint32 __PPO__GunClass() { return STRUCT_OFFSET(AShooterCharacter, GunClass); } \
+	FORCEINLINE static uint32 __PPO__Gun() { return STRUCT_OFFSET(AShooterCharacter, Gun); }
 
 
-#define ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_9_PROLOG
-#define ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_GENERATED_BODY_LEGACY \
+#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_11_PROLOG
+#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_SPARSE_DATA \
-	ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_RPC_WRAPPERS \
-	ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_INCLASS \
-	ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_STANDARD_CONSTRUCTORS \
+	ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_SPARSE_DATA \
+	ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_RPC_WRAPPERS \
+	ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_INCLASS \
+	ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_GENERATED_BODY \
+#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_SPARSE_DATA \
-	ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_SPARSE_DATA \
+	ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_INCLASS_NO_PURE_DECLS \
+	ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -90,7 +92,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> SHOOTERSTARTER_API UClass* StaticClass<class AShooterCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID ShooterStarter_Source_ShooterStarter_Characters_ShooterCharacter_h
+#define CURRENT_FILE_ID ShooterStarter_Source_ShooterStarter_ShooterCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

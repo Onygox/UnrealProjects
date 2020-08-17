@@ -2646,7 +2646,18 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/deque \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector \
-  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/Actors/A_Gun.cpp \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/A_Gun.cpp \
   /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Development/ShooterStarter/Definitions.ShooterStarter.h \
-  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/Actors/A_Gun.h \
-  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Inc/ShooterStarter/A_Gun.generated.h
+  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/A_Gun.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Inc/ShooterStarter/A_Gun.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Kismet/GameplayStatics.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/CoreUObject/Public/UObject/PropertyAccessUtil.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Engine/CollisionProfile.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/CollisionProfile.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/KismetSystemLibrary.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Sound/DialogueTypes.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/DialogueTypes.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Kismet/GameplayStaticsTypes.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameplayStaticsTypes.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameplayStatics.generated.h

@@ -2650,7 +2650,7 @@
   /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Development/ShooterStarter/Definitions.ShooterStarter.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/CoreUObject/Public/UObject/MetaData.h \
-  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/Characters/ShooterCharacter.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/ShooterCharacter.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/GameFramework/RootMotionSource.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/RootMotionSource.generated.h \
