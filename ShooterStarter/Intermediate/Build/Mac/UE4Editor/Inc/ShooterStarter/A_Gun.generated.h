@@ -61,7 +61,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AA_Gun); \
 #define ShooterStarter_Source_ShooterStarter_A_Gun_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Root() { return STRUCT_OFFSET(AA_Gun, Root); } \
 	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AA_Gun, Mesh); } \
-	FORCEINLINE static uint32 __PPO__MuzzleFlash() { return STRUCT_OFFSET(AA_Gun, MuzzleFlash); }
+	FORCEINLINE static uint32 __PPO__MuzzleFlash() { return STRUCT_OFFSET(AA_Gun, MuzzleFlash); } \
+	FORCEINLINE static uint32 __PPO__HitFlash() { return STRUCT_OFFSET(AA_Gun, HitFlash); } \
+	FORCEINLINE static uint32 __PPO__MaxRange() { return STRUCT_OFFSET(AA_Gun, MaxRange); }
 
 
 #define ShooterStarter_Source_ShooterStarter_A_Gun_h_9_PROLOG

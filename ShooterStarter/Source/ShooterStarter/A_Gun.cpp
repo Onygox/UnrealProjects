@@ -4,6 +4,7 @@
 #include "A_Gun.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 AA_Gun::AA_Gun()
@@ -34,7 +35,32 @@ void AA_Gun::Tick(float DeltaTime)
 
 void AA_Gun::Pull_Trigger() 
 {
-	// UE_LOG(LogTemp, Warning, TEXT("Shoot!"));
+	//muzzle flash
 	UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, Mesh, TEXT("MuzzleFlashSocket"));
+
+	//get hit point and draw a debug point where the linetrace hits
+	APawn* OwnerPawn = Cast<APawn>(GetOwner());
+	if (OwnerPawn == nullptr) return;
+
+	AController* OwnerController = OwnerPawn->GetController();
+	if (OwnerController == nullptr) return;
+
+	FVector OwnerLocation;
+	FRotator OwnerRotation;
+
+	OwnerController->GetPlayerViewPoint(OwnerLocation, OwnerRotation);
+
+	FVector End = OwnerLocation + OwnerRotation.Vector() * MaxRange;
+
+	FHitResult Hit;
+
+	bool bSuccess = GetWorld()->LineTraceSingleByChannel(Hit, OwnerLocation, End, ECollisionChannel::ECC_GameTraceChannel1);
+
+	if (bSuccess)
+	{
+		// DrawDebugPoint(GetWorld(), Hit.Location, 20, FColor::Red, true);
+		FVector ShotDirection = -OwnerRotation.Vector();
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), HitFlash, Hit.Location, ShotDirection.Rotation());
+	}
 }
 
