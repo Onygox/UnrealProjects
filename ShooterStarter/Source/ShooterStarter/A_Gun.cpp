@@ -61,6 +61,17 @@ void AA_Gun::Pull_Trigger()
 		// DrawDebugPoint(GetWorld(), Hit.Location, 20, FColor::Red, true);
 		FVector ShotDirection = -OwnerRotation.Vector();
 		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), HitFlash, Hit.Location, ShotDirection.Rotation());
+		AActor* HitActor = Hit.GetActor();
+		if (HitActor != nullptr)
+		{	
+			FPointDamageEvent DamageEvent(Damage, Hit, ShotDirection, nullptr);
+			HitActor->TakeDamage(Damage, DamageEvent, OwnerController, this);
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("No actor found."));
+		}
+		
 	}
 }
 

@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define SHOOTERSTARTER_ShooterCharacter_generated_h
 
 #define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_SPARSE_DATA
-#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_RPC_WRAPPERS
-#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execIsDead);
+
+
+#define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execIsDead);
+
+
 #define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAShooterCharacter(); \
@@ -60,6 +68,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AShooterCharacter); \
 
 #define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__RotationRate() { return STRUCT_OFFSET(AShooterCharacter, RotationRate); } \
+	FORCEINLINE static uint32 __PPO__MaxHealth() { return STRUCT_OFFSET(AShooterCharacter, MaxHealth); } \
+	FORCEINLINE static uint32 __PPO__CurrentHealth() { return STRUCT_OFFSET(AShooterCharacter, CurrentHealth); } \
 	FORCEINLINE static uint32 __PPO__GunClass() { return STRUCT_OFFSET(AShooterCharacter, GunClass); } \
 	FORCEINLINE static uint32 __PPO__Gun() { return STRUCT_OFFSET(AShooterCharacter, Gun); }
 
