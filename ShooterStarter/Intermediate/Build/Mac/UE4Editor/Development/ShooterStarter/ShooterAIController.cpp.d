@@ -2699,4 +2699,16 @@
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/DialogueTypes.generated.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Kismet/GameplayStaticsTypes.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameplayStaticsTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameplayStatics.generated.h
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameplayStatics.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/BehaviorTree/BlackboardComponent.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/BehaviorTree/Blackboard/BlackboardKeyType.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/BehaviorTree/BehaviorTreeTypes.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/BehaviorTreeTypes.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/BlackboardKeyType.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/AISystem.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/AI/AISystemBase.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/AISystemBase.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/AISystem.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/BehaviorTree/BlackboardData.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/BlackboardData.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/BlackboardComponent.generated.h
