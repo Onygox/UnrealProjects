@@ -2655,4 +2655,8 @@
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/Character.generated.h \
   /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Inc/ShooterStarter/ShooterCharacter.generated.h \
   /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/A_Gun.h \
-  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Inc/ShooterStarter/A_Gun.generated.h
+  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Inc/ShooterStarter/A_Gun.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Components/CapsuleComponent.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/Components/ShapeComponent.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/ShapeComponent.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/CapsuleComponent.generated.h
