@@ -1,9 +1,11 @@
 /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/A_Gun.h
-/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/BTService_PlayerLocation.h
 /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/BTTask_ClearBlackboardValue.h
-/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/BTTask_Shoot.h
-/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/ShooterAIController.h
-/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/ShooterStarterGameModeBase.h
-/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/MyPawn.h
-/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/ShooterCharacter.h
 /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/BTService_ClearPlayerLocation.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/KillEmAllGameMode.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/ShooterAIController.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/ShooterCharacter.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/ShooterStarterGameModeBase.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/ShooterStarterPlayerController.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/MyPawn.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/BTService_PlayerLocation.h
+/Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/BTTask_Shoot.h
