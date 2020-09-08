@@ -2711,4 +2711,10 @@
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/AISystem.generated.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/BehaviorTree/BlackboardData.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/BlackboardData.generated.h \
-  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/BlackboardComponent.generated.h
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/BlackboardComponent.generated.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/ShooterCharacter.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/GameFramework/RootMotionSource.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/RootMotionSource.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/Character.generated.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Inc/ShooterStarter/ShooterCharacter.generated.h

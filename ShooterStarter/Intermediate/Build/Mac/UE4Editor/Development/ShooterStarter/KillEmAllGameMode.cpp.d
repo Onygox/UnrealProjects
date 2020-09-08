@@ -2655,4 +2655,46 @@
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/ServerStatReplicator.generated.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/GameModeBase.generated.h \
   /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Inc/ShooterStarter/ShooterStarterGameModeBase.generated.h \
-  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Inc/ShooterStarter/KillEmAllGameMode.generated.h
+  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Inc/ShooterStarter/KillEmAllGameMode.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Public/EngineUtils.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Source/ShooterStarter/ShooterAIController.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/AIController.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/NavigationSystem/Public/NavFilters/NavigationQueryFilter.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/NavigationSystem/Public/NavAreas/NavArea.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/AI/Navigation/NavAreaBase.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/NavAreaBase.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NavigationSystem/NavArea.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NavigationSystem/NavigationQueryFilter.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/AITypes.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/NavigationSystem/Public/NavigationSystemTypes.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/AI/NavigationSystemConfig.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/NavigationSystemConfig.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/AITypes.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTaskOwnerInterface.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/GameplayTasks/Public/GameplayTaskTypes.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks/GameplayTaskOwnerInterface.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTask.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/CoreUObject/Public/UObject/WeakInterfacePtr.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks/GameplayTask.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/Navigation/PathFollowingComponent.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/NavigationSystem/Public/NavigationData.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/AI/Navigation/NavigationDataInterface.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/NavigationDataInterface.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NavigationSystem/NavigationData.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/AIResourceInterface.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/AIResourceInterface.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/GameFramework/NavMovementComponent.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/AI/Navigation/PathFollowingAgentInterface.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/PathFollowingAgentInterface.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/GameFramework/MovementComponent.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/MovementComponent.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/NavMovementComponent.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/PathFollowingComponent.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/Perception/AIPerceptionListenerInterface.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/AIPerceptionListenerInterface.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/GenericTeamAgentInterface.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/GenericTeamAgentInterface.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Public/VisualLogger/VisualLoggerDebugSnapshotInterface.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/VisualLoggerDebugSnapshotInterface.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule/AIController.generated.h \
+  /Users/lionel/Documents/GitHub/UnrealProjects/ShooterStarter/Intermediate/Build/Mac/UE4Editor/Inc/ShooterStarter/ShooterAIController.generated.h
