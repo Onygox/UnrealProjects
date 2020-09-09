@@ -62,7 +62,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AA_Gun); \
 	FORCEINLINE static uint32 __PPO__Root() { return STRUCT_OFFSET(AA_Gun, Root); } \
 	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AA_Gun, Mesh); } \
 	FORCEINLINE static uint32 __PPO__MuzzleFlash() { return STRUCT_OFFSET(AA_Gun, MuzzleFlash); } \
+	FORCEINLINE static uint32 __PPO__MuzzleSound() { return STRUCT_OFFSET(AA_Gun, MuzzleSound); } \
 	FORCEINLINE static uint32 __PPO__HitFlash() { return STRUCT_OFFSET(AA_Gun, HitFlash); } \
+	FORCEINLINE static uint32 __PPO__HitSound() { return STRUCT_OFFSET(AA_Gun, HitSound); } \
 	FORCEINLINE static uint32 __PPO__MaxRange() { return STRUCT_OFFSET(AA_Gun, MaxRange); } \
 	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(AA_Gun, Damage); }
 

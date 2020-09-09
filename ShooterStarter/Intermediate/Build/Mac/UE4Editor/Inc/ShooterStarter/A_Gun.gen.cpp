@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeA_Gun() {}
 	SHOOTERSTARTER_API UClass* Z_Construct_UClass_AA_Gun();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_ShooterStarter();
+	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
@@ -43,9 +44,17 @@ void EmptyLinkFunctionForGeneratedCodeA_Gun() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxRange;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitSound;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitFlash_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitFlash;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MuzzleSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MuzzleSound;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MuzzleFlash_MetaData[];
 #endif
@@ -87,12 +96,26 @@ void EmptyLinkFunctionForGeneratedCodeA_Gun() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AA_Gun_Statics::NewProp_MaxRange = { "MaxRange", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AA_Gun, MaxRange), METADATA_PARAMS(Z_Construct_UClass_AA_Gun_Statics::NewProp_MaxRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AA_Gun_Statics::NewProp_MaxRange_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AA_Gun_Statics::NewProp_HitSound_MetaData[] = {
+		{ "Category", "A_Gun" },
+		{ "ModuleRelativePath", "A_Gun.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AA_Gun_Statics::NewProp_HitSound = { "HitSound", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AA_Gun, HitSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AA_Gun_Statics::NewProp_HitSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AA_Gun_Statics::NewProp_HitSound_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AA_Gun_Statics::NewProp_HitFlash_MetaData[] = {
 		{ "Category", "A_Gun" },
 		{ "ModuleRelativePath", "A_Gun.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AA_Gun_Statics::NewProp_HitFlash = { "HitFlash", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AA_Gun, HitFlash), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AA_Gun_Statics::NewProp_HitFlash_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AA_Gun_Statics::NewProp_HitFlash_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AA_Gun_Statics::NewProp_MuzzleSound_MetaData[] = {
+		{ "Category", "A_Gun" },
+		{ "ModuleRelativePath", "A_Gun.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AA_Gun_Statics::NewProp_MuzzleSound = { "MuzzleSound", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AA_Gun, MuzzleSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AA_Gun_Statics::NewProp_MuzzleSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AA_Gun_Statics::NewProp_MuzzleSound_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AA_Gun_Statics::NewProp_MuzzleFlash_MetaData[] = {
 		{ "Category", "A_Gun" },
@@ -119,7 +142,9 @@ void EmptyLinkFunctionForGeneratedCodeA_Gun() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AA_Gun_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_Gun_Statics::NewProp_Damage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_Gun_Statics::NewProp_MaxRange,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_Gun_Statics::NewProp_HitSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_Gun_Statics::NewProp_HitFlash,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_Gun_Statics::NewProp_MuzzleSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_Gun_Statics::NewProp_MuzzleFlash,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_Gun_Statics::NewProp_Mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_Gun_Statics::NewProp_Root,
@@ -151,7 +176,7 @@ void EmptyLinkFunctionForGeneratedCodeA_Gun() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AA_Gun, 571968520);
+	IMPLEMENT_CLASS(AA_Gun, 332611040);
 	template<> SHOOTERSTARTER_API UClass* StaticClass<AA_Gun>()
 	{
 		return AA_Gun::StaticClass();
