@@ -16,11 +16,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_SPARSE_DATA
 #define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetHealthPercent); \
 	DECLARE_FUNCTION(execIsDead);
 
 
 #define ShooterStarter_Source_ShooterStarter_ShooterCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetHealthPercent); \
 	DECLARE_FUNCTION(execIsDead);
 
 

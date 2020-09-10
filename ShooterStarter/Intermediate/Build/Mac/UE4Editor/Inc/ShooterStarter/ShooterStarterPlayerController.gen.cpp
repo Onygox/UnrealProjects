@@ -34,9 +34,17 @@ void EmptyLinkFunctionForGeneratedCodeShooterStarterPlayerController() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HUDScreen_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HUDScreen;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RestartDelay_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RestartDelay;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HUDClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_HUDClass;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WinScreenClass_MetaData[];
 #endif
@@ -62,12 +70,26 @@ void EmptyLinkFunctionForGeneratedCodeShooterStarterPlayerController() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_HUDScreen_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ShooterStarterPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_HUDScreen = { "HUDScreen", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShooterStarterPlayerController, HUDScreen), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_HUDScreen_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_HUDScreen_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_RestartDelay_MetaData[] = {
 		{ "Category", "ShooterStarterPlayerController" },
 		{ "ModuleRelativePath", "ShooterStarterPlayerController.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_RestartDelay = { "RestartDelay", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShooterStarterPlayerController, RestartDelay), METADATA_PARAMS(Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_RestartDelay_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_RestartDelay_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_HUDClass_MetaData[] = {
+		{ "Category", "ShooterStarterPlayerController" },
+		{ "ModuleRelativePath", "ShooterStarterPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_HUDClass = { "HUDClass", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShooterStarterPlayerController, HUDClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_HUDClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_HUDClass_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_WinScreenClass_MetaData[] = {
 		{ "Category", "ShooterStarterPlayerController" },
@@ -83,7 +105,9 @@ void EmptyLinkFunctionForGeneratedCodeShooterStarterPlayerController() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_LoseScreenClass = { "LoseScreenClass", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShooterStarterPlayerController, LoseScreenClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_LoseScreenClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_LoseScreenClass_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AShooterStarterPlayerController_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_HUDScreen,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_RestartDelay,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_HUDClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_WinScreenClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShooterStarterPlayerController_Statics::NewProp_LoseScreenClass,
 	};
@@ -114,7 +138,7 @@ void EmptyLinkFunctionForGeneratedCodeShooterStarterPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AShooterStarterPlayerController, 1064786189);
+	IMPLEMENT_CLASS(AShooterStarterPlayerController, 1922675053);
 	template<> SHOOTERSTARTER_API UClass* StaticClass<AShooterStarterPlayerController>()
 	{
 		return AShooterStarterPlayerController::StaticClass();

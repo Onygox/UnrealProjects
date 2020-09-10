@@ -63,7 +63,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AShooterStarterPlayerController); \
 #define ShooterStarter_Source_ShooterStarter_ShooterStarterPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__LoseScreenClass() { return STRUCT_OFFSET(AShooterStarterPlayerController, LoseScreenClass); } \
 	FORCEINLINE static uint32 __PPO__WinScreenClass() { return STRUCT_OFFSET(AShooterStarterPlayerController, WinScreenClass); } \
-	FORCEINLINE static uint32 __PPO__RestartDelay() { return STRUCT_OFFSET(AShooterStarterPlayerController, RestartDelay); }
+	FORCEINLINE static uint32 __PPO__HUDClass() { return STRUCT_OFFSET(AShooterStarterPlayerController, HUDClass); } \
+	FORCEINLINE static uint32 __PPO__RestartDelay() { return STRUCT_OFFSET(AShooterStarterPlayerController, RestartDelay); } \
+	FORCEINLINE static uint32 __PPO__HUDScreen() { return STRUCT_OFFSET(AShooterStarterPlayerController, HUDScreen); }
 
 
 #define ShooterStarter_Source_ShooterStarter_ShooterStarterPlayerController_h_12_PROLOG
